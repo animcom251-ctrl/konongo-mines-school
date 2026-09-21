@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>KONONGO MINES M/A BASIC 'A' SCHOOL| Official Website</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- Navigation -->
+    <header>
+        <nav class="navbar">
+            <div class="logo">
+                <span>🏫</span>
+                <h2>KONONGO MINES M/A BASIC 'A' SCHOOL</h2>
+            </div>
+
+            <button class="menu-btn" onclick="toggleMenu()">☰</button>
+
+            <ul id="navLinks">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#admissions">Admissions</a></li>
+                <li><a href="#news">News</a></li>
+                <li><a href="#gallery">Gallery</a></li>
+                <li><a href="#videos">Videos</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Hero -->
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <p class="welcome">WELCOME TO</p>
+            <h1>KONONGO MINES M/A BASIC 'A' SCHOOL</h1>
+            <p>
+                Inspiring students today for a brighter tomorrow.
+            </p>
+
+            <div class="hero-buttons">
+                <a href="#admissions" class="btn">Apply Now</a>
+                <a href="#about" class="btn secondary">Learn More</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- About -->
+    <section id="about" class="section">
+        <h2>About Our School</h2>
+
+        <p class="section-text">
+            Our school is committed to providing quality education,
+            developing talents and preparing students for a successful future.
+        </p>
+
+        <div class="cards">
+            <div class="card">
+                <div class="icon">🎓</div>
+                <h3>Quality Education</h3>
+                <p>We provide students with a strong academic foundation.</p>
+            </div>
+
+            <div class="card">
+                <div class="icon">🏆</div>
+                <h3>Excellence</h3>
+                <p>We encourage students to aim high and achieve their goals.</p>
+            </div>
+
+            <div class="card">
+                <div class="icon">💡</div>
+                <h3>Innovation</h3>
+                <p>Students are encouraged to develop creativity and new ideas.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Admissions -->
+    <section id="admissions" class="admissions">
+        <div>
+            <p class="small-title">JOIN OUR SCHOOL</p>
+            <h2>Admissions Are Open</h2>
+
+            <p>
+                Begin your journey with us. Find out about our admission
+                requirements and how to apply.
+            </p>
+
+            <button class="btn" onclick="showAdmission()">
+                Admission Information
+            </button>
+        </div>
+
+        <div class="admission-box">
+            <h3>Why Choose Us?</h3>
+            <p>✓ Qualified teachers</p>
+            <p>✓ Modern learning environment</p>
+            <p>✓ Sports and extracurricular activities</p>
+            <p>✓ Technology and innovation</p>
+        </div>
+    </section>
+
+    <!-- News -->
+    <section id="news" class="section">
+        <p class="small-title">LATEST UPDATES</p>
+        <h2>School News</h2>
+
+        <div class="news-container">
+
+            <article class="news-card">
+                <div class="news-image">📰</div>
+                <div class="news-content">
+                    <span>School News</span>
+                    <h3>Welcome to Our New Academic Year</h3>
+                    <p>
+                        Stay updated with the latest activities and
+                        announcements from our school.
+                    </p>
+                    <a href="#">Read More →</a>
+                </div>
+            </article>
+
+            <article class="news-card">
+                <div class="news-image">🏅</div>
+                <div class="news-content">
+                    <span>Achievement</span>
+                    <h3>Our Students Make Us Proud</h3>
+                    <p>
+                        Celebrating the achievements of our students
+                        in academics and extracurricular activities.
+                    </p>
+                    <a href="#">Read More →</a>
+                </div>
+            </article>
+
+            <article class="news-card">
+                <div class="news-image">🎉</div>
+                <div class="news-content">
+                    <span>Events</span>
+                    <h3>Upcoming School Events</h3>
+                    <p>
+                        Discover upcoming programs, competitions and
+                        important school activities.
+                    </p>
+                    <a href="#">Read More →</a>
+                </div>
+            </article>
+
+        </div>
+    </section>
+
+    <!-- Gallery -->
+    <section id="gallery" class="section gallery-section">
+        <p class="small-title">OUR SCHOOL</p>
+        <h2>Photo Gallery</h2>
+
+        <div class="gallery">
+
+            <div class="gallery-item">
+                <img src="images/school1.jpg" alt="School">
+            </div>
+
+            <div class="gallery-item">
+                <img src="images/school2.jpg" alt="Students">
+            </div>
+
+            <div class="gallery-item">
+                <img src="images/school3.jpg" alt="School activity">
+            </div>
+
+            <div class="gallery-item">
+                <img src="images/school4.jpg" alt="School event">
+            </div>
+
+        </div>
+    </section>
+
+    <!-- Videos -->
+    <section id="videos" class="section">
+        <p class="small-title">WATCH</p>
+        <h2>School Videos</h2>
+
+        <div class="video-container">
+
+            <div class="video-card">
+                <div class="video-placeholder">▶</div>
+                <h3>Welcome to Our School</h3>
+                <p>Learn more about our school community.</p>
+            </div>
+
+            <div class="video-card">
+                <div class="video-placeholder">▶</div>
+                <h3>School Activities</h3>
+                <p>Watch some of our exciting school activities.</p>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- Contact -->
+    <section id="contact" class="contact">
+        <p class="small-title">GET IN TOUCH</p>
+        <h2>Contact Us</h2>
+
+        <div class="contact-container">
+
+            <div class="contact-info">
+                <h3>We'd Love to Hear From You</h3>
+
+                <p>📍 School Address</p>
+                <p>📞 +233 XX XXX XXXX</p>
+                <p>✉️ info@yourschool.com</p>
+                <p>🕒 Monday - Friday: 8:00 AM - 4:00 PM</p>
+            </div>
+
+            <form onsubmit="sendMessage(event)">
+                <input type="text" placeholder="Your Name" required>
+                <input type="email" placeholder="Your Email" required>
+                <input type="text" placeholder="Subject" required>
+                <textarea placeholder="Your Message" rows="5" required></textarea>
+
+                <button type="submit" class="btn">
+                    Send Message
+                </button>
+            </form>
+
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <h3>Your School</h3>
+        <p>Educating. Inspiring. Empowering.</p>
+
+        <div class="footer-links">
+            <a href="#home">Home</a>
+            <a href="#admissions">Admissions</a>
+            <a href="#news">News</a>
+            <a href="#contact">Contact</a>
+        </div>
+
+        <p class="copyright">
+            © 2026 Your School. All Rights Reserved.
+        </p>
+    </footer>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
